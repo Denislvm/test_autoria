@@ -64,7 +64,6 @@ def collect_cars():
             current_url = f"{main_url}&page={current_page}"
 
         current_page += 1
-        print(cars_list)
         # with open('result.json', 'w') as file:
         #     json.dump(cars_list, file, ensure_ascii=False, indent=4)
 
